@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'sansita_swashedlight';
+    src: url('sansitaswashed-variablefont_wght-webfont.woff2') format('woff2'),
+         url('sansitaswashed-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body{
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-color: rgb(183,181,182);
+
+}
+
+
+/*COVER*/
+
+#cover {
+	background-image: url("../images/silhouette-wildscreen.png"), url("../images/bambou_gris.jpg") ;
+	background-repeat: no-repeat;
+	background-position: center border-bottom, left top;
+	background-size: 100% 100%;
+	height: 545px;
+	border-bottom: 8px solid #8A0D00;
+}
+
+h1, .figure-title,p{
+	font-family: 'sansita_swashedlight', "Times New Roman",Arial, Verdana, sans-serif;
+	font-size: 5vh;
+	text-align: center;
+	color: #8A0D00;
+}
+
+p.orange 
+{
+	color: rgb(206,103,0);
+}
+.title,.quote-title{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	font-weight: bold;
+}
+
+
+section{
+	padding-bottom: 20px;
+	border-bottom: 8px solid #8A0D00;
+}
+
+.quote-title{
+	font-size: 7vh;
+	margin-bottom: 7vh;
+}
+
+
+.quotes-items{
+	display: flex;
+	justify-content:center;
+	font-size: 4vh;
+	/*border: 2px solid yellow;*/
+
+	ul{
+		text-align:center;
+		width: 70vw;
+		/*border: 2px solid green;*/
+		li::before{
+			content: "\00BB \0020";
+			color: rgb(206,103,0);
+			font-weight:bold;
+		}
+		li{
+			list-style:none;
+			margin-bottom: 4vh;
+			color: rgba(138,13,0,0.8);
+			
+		}
+	}
+
+}
+
+
+img{
+	margin-bottom: 20px;
+ }
+a{
+	color: black;
+}
+
+a:hover{
+	color: #8A0D00;
+}
+
+footer{
+	height:10vh;
+	background-image: url("../images/bambou_gris.jpg");
+}
+
+.black{
+	color: black;
+}
